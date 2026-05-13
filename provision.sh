@@ -20,4 +20,4 @@ chmod +x /home/vagrant/sync.sh
 
 cd /home/vagrant
 
-sudo docker compose up -d
+sudo docker-compose up -d
