@@ -1,11 +1,7 @@
 <?php
-get_header();
-?>
 
-<h1>Proyecto automatizado</h1>
+echo "<h1>Proyecto automatizado funcionando</h1>";
 
-<p>Hola profesor, funciona correctamente.</p>
+echo "<p>WordPress + Docker + Vagrant funcionando correctamente.</p>";
 
-<?php
-get_footer();
 ?>
