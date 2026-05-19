@@ -1,7 +1,19 @@
 <?php
+get_header();
+?>
 
-echo "<h1>CAMBIO AUTOMATICO FUNCIONANDO CORRECTAMENTE</h1>";
+<h1>Proyecto WordPress Automatizado</h1>
 
-echo "<p>WordPress + Docker + Vagrant funcionando correctamente.</p>";
+<p>
+Esta página se despliega automáticamente usando:
+</p>
 
+<ul>
+    <li>Docker</li>
+    <li>Vagrant</li>
+    <li>GitHub</li>
+</ul>
+
+<?php
+get_footer();
 ?>
